@@ -1,0 +1,37 @@
+import pyperclip
+from time import sleep
+
+from datetime import datetime
+
+
+start = datetime.now()
+
+
+line = ''
+
+with open('data.txt', 'a') as f:
+    while line != 'a':
+        data = pyperclip.paste()
+        if data != line:
+            line = data
+            f.write(f'{data}\n')
+        sleep(0.1
+import pyperclip
+from time import sleep
+
+from datetime import datetime
+
+
+start = datetime.now()
+
+
+line = ''
+
+with open('data.txt', 'a') as f:
+    while line != 'a':
+        data = pyperclip.paste()
+        if data != line:
+            line = data
+            f.write(f'{data}\n')
+        sleep(0.1
+a
